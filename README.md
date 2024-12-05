@@ -54,18 +54,20 @@ The dataset used for this project is StudentsPerformance.csv. It contains:
   + **Precision**: 93%
   + **Recall**: 92%
   + **F1-score**: 92%
+
+    
 **Classification Report:**
 
 
-    f            precision   recall     f1-score   support
+                    precision  recall     f1-score   support
+     Grade A           0.95      0.96      0.95       105
+     Grade B           0.91      0.89      0.90        95
+     Grade C           0.94      0.92      0.93       100
+    accuracy                               0.94       300
+    macro avg          0.93      0.92      0.93       300
+    weighted avg       0.94      0.94      0.94       300
 
-    Grade A       0.95       0.96        0.95       105
-    Grade B       0.91       0.89        0.90        95
-    Grade C       0.94       0.92        0.93       100
 
-    accuracy                             0.94       300
-    macro avg       0.93      0.92       0.93       300
-    weighted avg    0.94      0.94       0.94       300
 
 
 # Conclusion
